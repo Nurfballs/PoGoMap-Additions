@@ -1,10 +1,13 @@
-# PoGoMap-Additions
+# GPS Module
+ .. coming soon ..
+
+# Pushover Notifications
 When used in conjunction with the gps module, will send a pushover notification of nearby pokemon with a link to directions via google maps.
 
-# Instructions
+## Instructions
 Create `/config/pushoverconfig.json` .
 
-##Parameters:
+###Parameters:
 * "notify" - comma separated list of pokemon you want to be notified about.
 * "token" - your pushover application token.
 * "user" - your pushover user key
